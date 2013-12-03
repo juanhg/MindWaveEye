@@ -1,4 +1,4 @@
-package com.example.hellomindwave;
+package com.juanhg.hellomindwave;
 
 import java.util.concurrent.ExecutionException;
 
@@ -13,6 +13,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.hellomindwave.R;
 import com.neurosky.thinkgear.*;
 
 import android.os.Bundle;
