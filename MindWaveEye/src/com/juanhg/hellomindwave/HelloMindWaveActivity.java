@@ -1,6 +1,6 @@
 package com.juanhg.hellomindwave;
 
-import java.util.concurrent.ExecutionException;
+import res.juanhg.hellomindwave.R;
 
 import android.bluetooth.BluetoothAdapter;
 import android.os.AsyncTask;
@@ -8,18 +8,17 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.hellomindwave.R;
 import com.neurosky.thinkgear.*;
 
-import android.os.Bundle;
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.view.Menu;
 
+@SuppressLint("HandlerLeak")
 public class HelloMindWaveActivity extends Activity {
 	
 	//Declaración de variables
