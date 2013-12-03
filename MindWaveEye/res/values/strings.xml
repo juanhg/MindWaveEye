@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="MainLayout">MainLayout</string><string name="app_name">HelloMindWave</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Atention">Atention: 0</string>
+    <string name="Meditation">Meditation: 0</string>
+    <string name="BlinkDescription">Image that changes if user blink</string>
+    <string name="zero">0</string>
+    <string name="Info2">Status Infomation</string>
+    <string name="empty">&quot;&quot;</string>
+    
+
+</resources>

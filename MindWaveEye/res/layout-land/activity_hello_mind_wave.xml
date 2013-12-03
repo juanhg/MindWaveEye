@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout2"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textViewAttention"
+            android:layout_width="400dp"
+            android:layout_height="60dp"
+            android:layout_above="@+id/textViewMeditation"
+            android:layout_alignParentLeft="true"
+            android:gravity="center|left"
+            android:paddingLeft="20dp"
+            android:text="@string/empty"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/textViewInfo2"
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="18dp"
+            android:gravity="center"
+            android:text="@string/Info2"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textViewMeditation"
+            android:layout_width="400dp"
+            android:layout_height="80dp"
+            android:layout_above="@+id/textViewInfo2"
+            android:layout_alignParentLeft="true"
+            android:gravity="center|left"
+            android:paddingLeft="20dp"
+            android:text="@string/empty"
+            android:textSize="40sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@id/RelativeLayout2"
+        android:layout_width="244dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textViewBlink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/imageViewBlink"
+            android:baselineAligned="false"
+            android:gravity="center|top"
+            android:text="@string/zero"
+            android:textSize="40sp" />
+
+        <ImageView
+            android:id="@+id/imageViewBlink"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="24dp"
+            android:contentDescription="@string/BlinkDescription"
+            android:src="@drawable/white_eye" />
+
+    </RelativeLayout>
+
+</LinearLayout>
